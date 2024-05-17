@@ -1,0 +1,15 @@
+carl  = {
+          :toast => 'cosmos',
+          :punctuation => [ ',', '.', '?' ],
+          :words => [ 'know', 'for', 'we']
+        }
+
+sagan = [
+          { :are => 'are', 'A' => 'a' },
+          { 'waaaaaay' => 'way', :th3 => 'the' },
+          'itself',
+          { 2 => ['to']}
+        ]
+
+sentence = "#{sagan[0][:are]} #{sagan[1]['waaaaaay']} #{sagan[3][2][0]} #{carl[:words][2]} #{carl[:toast]} #{sagan[2]}#{carl[:punctuation][1]}"
+puts sentence
